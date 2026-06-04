@@ -1,0 +1,152 @@
+/* RegistrationForm.css */
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+body {
+
+  background: #121212;
+
+}
+
+
+.main-container {
+
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+
+}
+
+
+.left-section {
+
+  width: 40%;
+  background: linear-gradient(to bottom, #ff512f, #dd2476);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+}
+
+
+.left-section h1 {
+
+  font-size: 40px;
+  margin-bottom: 15px;
+
+}
+
+
+.left-section p {
+
+  text-align: center;
+  line-height: 28px;
+  margin-bottom: 30px;
+
+}
+
+
+.left-section img {
+
+  width: 250px;
+
+}
+
+
+.right-section {
+
+  width: 60%;
+  background: white;
+  padding: 50px;
+
+}
+
+
+.right-section h2 {
+
+  text-align: center;
+  margin-bottom: 35px;
+  color: #dd2476;
+
+}
+
+
+.input-box {
+
+  margin-bottom: 22px;
+
+}
+
+
+.input-box input,
+.input-box select {
+
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  transition: 0.3s;
+
+}
+
+
+.input-box input:focus,
+.input-box select:focus {
+
+  border-bottom: 2px solid #dd2476;
+
+}
+
+
+button {
+
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  color: white;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+
+button:hover {
+
+  transform: translateY(-3px);
+
+}
+
+
+.output {
+
+  margin-top: 25px;
+  background: #f3f3f3;
+  padding: 20px;
+  border-left: 5px solid #dd2476;
+  border-radius: 10px;
+
+}
+
+
+.output pre {
+
+  white-space: pre-wrap;
+  line-height: 28px;
+
+}
